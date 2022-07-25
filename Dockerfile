@@ -3,7 +3,7 @@ MAINTAINER Jason Tipton
 
 # Install apache and supplimentary programs. openssh-server, curl, and lynx-cur are for debugging the container.
 RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get -y install \
-    apache2 libapache2-mod-wsgi python-dev build-essential python3-pip
+    apache2 libapache2-mod-wsgi-py3 python-dev build-essential python3-pip
 
 # Enable apache mods.
 RUN a2enmod wsgi
