@@ -1,6 +1,6 @@
 [
     {
-        "name": "ez",
+        "name": "flask-demo-container",
         "imageUri": "gusu20120525/ez"
     }
 ]
