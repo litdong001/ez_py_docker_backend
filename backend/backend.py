@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello():
  for x in range(1,20):
  	print(x)
- return "backend running."
+ return "hello,backend running."
 
 if __name__ == "__main__":
  app.run()
